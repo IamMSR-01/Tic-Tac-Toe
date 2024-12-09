@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(https://4kwallpapers.com/images/wallpapers/frozen-leaves-foliage-blue-close-up-on-the-ground-winter-5k-3840x2160-6554.jpg);
+    text-align: center;
+}
+
+
+h1{
+    font-size: 3.5rem;
+    color: red;
+    padding-top: 20px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    border: none;
+    font-size: 4.25rem;
+    background-image: url(https://w0.peakpx.com/wallpaper/620/468/HD-wallpaper-focus-graphy-of-green-leaf-grass-with-water-drop-in-blue-background-nature.jpg);
+    color: red;
+}
+
+#restart-btn{
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.25rem;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#restart-btn:hover{
+    cursor: pointer;
+}
+#newbtn{
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.25rem;
+    background-color: black;
+    color: #fff;
+}
+#newbtn:hover{
+    cursor: pointer;
+}
+#msg{
+    font-size: 6rem;
+    font-weight: 900;
+    color: red;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
